@@ -1,2 +1,0 @@
-# wallet
-Coffeechain Wallet
