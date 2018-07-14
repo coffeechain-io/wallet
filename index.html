@@ -358,7 +358,7 @@
               tooltip-html
               tooltip-theme="tooltipster-theme3"
               tooltip-title="<center><u>Decentralized Exchange</u></center><br/>Access to DEX where you can<br/>conveniently buy, sell and trade CoffeeCoin."></span>
-        <span waves-tab
+        <<span waves-tab
               on-select="nav.changeTab(pageId)"
               current-page-id="nav.currentTab"
               page-id="leasing"
@@ -366,7 +366,7 @@
               tooltipster
               tooltip-html
               tooltip-theme="tooltipster-theme3"
-              tooltip-title="<center><u>Leasing</u></center><br/>Lease your Coffeecoin<br/>."></span>
+              tooltip-title="<center><u>Leasing</u></center><br/>Lease your Coffeecoin<br/>to CoffeeCoin."></span>
         <!--<span waves-tab on-select="nav.changeTab(pageId)" current-page-id="nav.currentTab" page-id="voting" caption="'Voting tab'" tooltipster tooltip-html-->
         <!--tooltip-theme="tooltipster-theme3" tooltip-title="<center><u>Voting Area</u></center><br/>Decentralized voting utility."></span>-->
         <span waves-tab
@@ -650,7 +650,7 @@
           <div class="noDisp" ng-controller="walletDepositController as deposit" data-currency="LTC">
             <div id="deposit-ltc-dialog" waves-dialog ok-button-caption="CLOSE" cancel-button-visible="false">
               <h2 class="sectionHeader">DEPOSIT: LTC</h2>
-              <p class="dialog-text">To deposit LTC to your Waves account, please send LTC to the address below.<br/>
+              <p class="dialog-text">To deposit LTC to your Coffeecoin account, please send LTC to the address below.<br/>
                 The minimum amount of deposit is <span class="fontBold">{{deposit.ltc.minimumAmount}} LTC</span>.</p>
               <table class="wavesTable bitcoin-requisites">
                 <tbody>
@@ -1115,7 +1115,7 @@
           <div class="phContent">
             <h1>DECENTRALIZED VOTING</h1>
             <br/>
-            <p>With a fair and automated system, Coffeecoin' voting area enables communities and projects to achieve consensus for critical decision-making that might otherwise prove difficult or controversial. A full set of analytic tools will also be available to follow up the voting process in real time.
+            <p>With a fair and automated system, Waves' voting area enables communities and projects to achieve consensus for critical decision-making that might otherwise prove difficult or controversial. A full set of analytic tools will also be available to follow up the voting process in real time.
               <br/><br/>
               The Decentralized Voting feature launch is estimated for the first quarter of 2017.
             </p>
@@ -1233,14 +1233,13 @@
         <!-- SHOP TAB -->
         <div id="mBB-community" class="mBB-content" ng-switch-when="community" ng-controller="communityController as community">
           <!-- Temporary -->
-		 <iframe scrolling="auto" src="https://thaicoffee.io/index.php/product/doi-whan-thai-arabica-microlot-coffee-set-cnx18a/" width="100%" height="500" align="left"></iframe>
         <!-- /SHOP TAB -->
       </section>
     </section>
   </div>
 </div> <!-- Wrapper div END -->
 
-<script src="js/coffeechain.js"></script>
+<script src="js/coffeecoin.js"></script>
 
 
 </body>
